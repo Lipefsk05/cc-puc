@@ -1,0 +1,18 @@
+p++
+
+- Explicação: Esta expressão faz o ponteiro p avançar para o próximo elemento do tipo que ele aponta.
+- Diferença: p++ é uma operação de pós-incremento, o que significa que primeiro o valor atual de p é usado na expressão em que aparece e, em seguida, p é incrementado em 1.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*(p)++;
+
+- Explicação: Esta expressão incrementa o valor apontado por p.
+- Diferença: (*p)++ primeiro acessa o valor apontado por p e, em seguida, incrementa esse valor em 1.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*(p++);
+
+- Explicação: Esta expressão é mais complexa e um pouco inválida em C, pois tenta desreferenciar o resultado de p++.
+- Diferença: *(p++) usa o valor atual de p, que é um ponteiro, e depois incrementa p. Então, *(p++)

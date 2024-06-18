@@ -1,0 +1,15 @@
+Diferença entre os códigos:
+
+- No Código 1, *ptr é incrementado cinco vezes, resultando em 15 sendo impresso.
+- No Código 2, ptr é incrementado cinco vezes, apontando para novos endereços de memória, e o endereço final é impresso como um ponteiro, não o valor contido nele.
+Valor impresso para ptr:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Saida dos codigos:
+- Código 1: 15 (o valor final apontado por ptr).
+- Código 2: Endereço de memória após as operações do loop, o que pode ser imprevisível e possivelmente incorreto para ser passado para free()
+
+
+
+

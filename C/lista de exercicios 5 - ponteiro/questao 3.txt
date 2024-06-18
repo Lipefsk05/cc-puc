@@ -1,0 +1,19 @@
+a) valor == &valorPtr
+
+Falso
+Justificativa: Esta expressão verifica se o valor da variável valor é igual ao endereço armazenado no ponteiro valorPtr.
+
+b) valor == valorPtr
+
+Falso
+Justificativa: Esta expressão verifica se o valor da variável valor é igual ao valor apontado por valorPtr.
+
+c) valorPtr == &valor
+
+Verdadeiro
+Justificativa: Esta expressão verifica se o valor do ponteiro valorPtr é igual ao endereço da variável valor.
+
+d) valorPtr == valor
+
+Falso
+Justificativa: Esta expressão verifica se o valor do ponteiro valorPtr é igual ao valor da variável valor.

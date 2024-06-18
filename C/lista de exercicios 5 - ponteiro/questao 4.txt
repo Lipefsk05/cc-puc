@@ -1,0 +1,5 @@
+printf("\n%d\n", &q);
+
+O erro estava em tentar imprimir o endereço de q ao invés de desreferenciar os ponteiros corretamente para acessar o valor de x
+
+printf("\n%d\n", **q);
