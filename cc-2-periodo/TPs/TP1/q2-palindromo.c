@@ -13,10 +13,6 @@ bool palin(char pa[1000]){
         if(pa[i]!=pa[j-i]){
             return false;
         }  
-
-        // else{
-        // j--;
-        // }
     }
     
     return true;
