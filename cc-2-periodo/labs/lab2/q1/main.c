@@ -44,7 +44,8 @@ int main(){
     char str1[1000];
     char str2[1000];
 
-    while(scanf("%s", str1) != EOF){
+    while(
+        scanf("%s", str1) != EOF){
         getchar();
         scanf("%s", str2);
         comb(str1, str2);
