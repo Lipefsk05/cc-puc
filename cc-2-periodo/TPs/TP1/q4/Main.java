@@ -28,11 +28,10 @@ public class Main{
         String str;
         
         rd.setSeed(4);
+        
         char l1 = ((char)('a' + (Math.abs(rd.nextInt()) % 26)));
         char l2 = ((char)('a' + (Math.abs(rd.nextInt()) % 26)));
-        
 
-        
         do{
 
             str = sc.nextLine();
