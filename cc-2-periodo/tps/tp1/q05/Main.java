@@ -78,7 +78,6 @@ public class Main {
                         pArr[j] = pArr[j+1];
                         pArr[j+1] = '-';
                     }
-
                 }
 
                 tam -= 1;
