@@ -9,15 +9,14 @@ bool pali(char c[], int i, int j) {
     bool dir = c[j] < 32 || c[j] > 127;
 
     if (esq && dir)
-        return pali(c, i + 1, j - 1);
-    else if (esq)
+        if(i == j)
+            return true;
         return false;
-    else if (dir)
+    
+    if (c[i] != c[j])
         return false; 
-    else if (c[i] != c[j])
-        return false; 
-    else
-        return pali(c, i + 1, j - 1); 
+
+    return pali(c, i + 1, j - 1); 
 }
 
 int main() {

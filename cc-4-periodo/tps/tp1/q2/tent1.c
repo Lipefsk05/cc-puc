@@ -11,9 +11,9 @@ bool pali(char c[], int i, int j) {
     if (esq && dir)
         return pali(c, i + 1, j - 1);
     else if (esq)
-        return false;
+        return pali(c, i + 1, j); 
     else if (dir)
-        return false; 
+        return pali(c, i, j - 1); 
     else if (c[i] != c[j])
         return false; 
     else
